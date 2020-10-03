@@ -45,11 +45,9 @@ public class race extends JFrame implements ActionListener {
 
         }
         if (jan.getAfstand() > vis.getAfstand()){
-            System.out.println("jan weerd is de winner!");
-            System.exit(0); }
+            System.out.println("jan weerd is de winner!");}
         else if(vis.getAfstand() > jan.getAfstand()) {
-            System.out.println("jan Visscher is de winner");
-            System.exit(0); }
+            System.out.println("jan Visscher is de winner");}
     }
     public void pause(int mSec) {
         try {
